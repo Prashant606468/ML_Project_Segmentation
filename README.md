@@ -129,7 +129,7 @@ All models: batch 16, 352×352, bf16 autocast, gradient clipping 1.0, identical 
 - PraNet is trained with the same augmentation as all other models and without its multi-scale training. It is evaluated with a fixed 0.5 threshold, so its numbers differ slightly from the paper (ours: ColonDB 0.747, paper: 0.709).
 - The Res2Net-50 ImageNet weights for PraNet are loaded through `timm` (`res2net50_26w_4s`) because the original download link is unmaintained.
 - Latency was measured on a shared GPU. Use it for relative comparisons only.
-- The denoiser (9.4M parameters) is larger than the YOLOv8s backbone (5.1M). "Lightweight" refers to the backbone and the total model size.
+- The denoiser (9.2M parameters) is larger than the YOLOv8s backbone (5.1M). "Lightweight" refers to the backbone and the total model size.
 
 ## References
 
