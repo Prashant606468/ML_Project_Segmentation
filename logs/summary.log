@@ -1,0 +1,176 @@
+# Results (mean ± std over seeds; HD95 in pixels at original resolution)
+
+## Seen (Kvasir + ClinicDB test, 162 images pooled)
+
+| Method | Seen dice | Seen iou | Seen bf | Seen hd95 |
+|---|---|---|---|---|
+| U-Net | 0.844 ± 0.002 | 0.770 ± 0.001 | 0.673 ± 0.009 | 64.21 ± 4.33 |
+| PraNet | 0.903 ± 0.005 | 0.852 ± 0.005 | 0.815 ± 0.003 | 37.13 ± 3.09 |
+| YOLO-Seg (no diffusion) | 0.910 ± 0.001 | 0.860 ± 0.001 | 0.832 ± 0.003 | 33.04 ± 0.31 |
+| YOLO-Diff (no boundary) | 0.849 ± 0.006 | 0.777 ± 0.007 | 0.725 ± 0.009 | 53.79 ± 6.04 |
+| YOLO-Diff (boundary) | 0.861 ± 0.007 | 0.797 ± 0.005 | 0.761 ± 0.007 | 47.60 ± 2.73 |
+| YOLO-Diff (boundary + strong aug) | 0.862 ± 0.001 | 0.795 ± 0.001 | 0.752 ± 0.006 | 44.48 ± 2.38 |
+
+## Kvasir
+
+| Method | Kvasir dice | Kvasir iou | Kvasir bf | Kvasir hd95 |
+|---|---|---|---|---|
+| U-Net | 0.849 ± 0.003 | 0.772 ± 0.004 | 0.644 ± 0.012 | 80.64 ± 6.68 |
+| PraNet | 0.897 ± 0.006 | 0.844 ± 0.007 | 0.796 ± 0.007 | 52.87 ± 5.62 |
+| YOLO-Seg (no diffusion) | 0.906 ± 0.004 | 0.855 ± 0.006 | 0.813 ± 0.008 | 45.68 ± 2.44 |
+| YOLO-Diff (no boundary) | 0.864 ± 0.006 | 0.793 ± 0.009 | 0.732 ± 0.005 | 64.08 ± 6.35 |
+| YOLO-Diff (boundary) | 0.876 ± 0.001 | 0.814 ± 0.002 | 0.771 ± 0.005 | 57.76 ± 1.52 |
+| YOLO-Diff (boundary + strong aug) | 0.877 ± 0.005 | 0.813 ± 0.005 | 0.762 ± 0.010 | 54.06 ± 3.11 |
+
+## CVC-ClinicDB
+
+| Method | CVC-ClinicDB dice | CVC-ClinicDB iou | CVC-ClinicDB bf | CVC-ClinicDB hd95 |
+|---|---|---|---|---|
+| U-Net | 0.835 ± 0.010 | 0.768 ± 0.007 | 0.719 ± 0.003 | 37.71 ± 6.59 |
+| PraNet | 0.914 ± 0.003 | 0.865 ± 0.004 | 0.847 ± 0.005 | 11.74 ± 1.12 |
+| YOLO-Seg (no diffusion) | 0.917 ± 0.008 | 0.867 ± 0.010 | 0.862 ± 0.011 | 12.64 ± 3.38 |
+| YOLO-Diff (no boundary) | 0.825 ± 0.007 | 0.752 ± 0.004 | 0.715 ± 0.015 | 37.20 ± 6.24 |
+| YOLO-Diff (boundary) | 0.837 ± 0.020 | 0.769 ± 0.016 | 0.745 ± 0.015 | 31.22 ± 4.71 |
+| YOLO-Diff (boundary + strong aug) | 0.836 ± 0.007 | 0.766 ± 0.006 | 0.737 ± 0.003 | 29.02 ± 1.79 |
+
+## CVC-ColonDB
+
+| Method | CVC-ColonDB dice | CVC-ColonDB iou | CVC-ColonDB bf | CVC-ColonDB hd95 |
+|---|---|---|---|---|
+| U-Net | 0.649 ± 0.016 | 0.562 ± 0.016 | 0.515 ± 0.018 | 157.57 ± 19.91 |
+| PraNet | 0.747 ± 0.009 | 0.676 ± 0.009 | 0.630 ± 0.009 | 109.30 ± 11.72 |
+| YOLO-Seg (no diffusion) | 0.777 ± 0.004 | 0.699 ± 0.006 | 0.656 ± 0.013 | 74.22 ± 3.75 |
+| YOLO-Diff (no boundary) | 0.714 ± 0.014 | 0.630 ± 0.012 | 0.591 ± 0.007 | 103.47 ± 16.84 |
+| YOLO-Diff (boundary) | 0.740 ± 0.007 | 0.655 ± 0.005 | 0.624 ± 0.002 | 87.61 ± 5.34 |
+| YOLO-Diff (boundary + strong aug) | 0.754 ± 0.008 | 0.666 ± 0.008 | 0.621 ± 0.003 | 76.45 ± 2.73 |
+
+## ETIS-LaribPolypDB
+
+| Method | ETIS-LaribPolypDB dice | ETIS-LaribPolypDB iou | ETIS-LaribPolypDB bf | ETIS-LaribPolypDB hd95 |
+|---|---|---|---|---|
+| U-Net | 0.492 ± 0.022 | 0.417 ± 0.016 | 0.383 ± 0.020 | 467.02 ± 61.42 |
+| PraNet | 0.703 ± 0.020 | 0.631 ± 0.015 | 0.615 ± 0.010 | 284.05 ± 50.79 |
+| YOLO-Seg (no diffusion) | 0.697 ± 0.022 | 0.620 ± 0.023 | 0.614 ± 0.032 | 224.21 ± 11.91 |
+| YOLO-Diff (no boundary) | 0.666 ± 0.007 | 0.582 ± 0.007 | 0.575 ± 0.016 | 229.53 ± 21.87 |
+| YOLO-Diff (boundary) | 0.683 ± 0.007 | 0.599 ± 0.014 | 0.600 ± 0.009 | 224.45 ± 17.65 |
+| YOLO-Diff (boundary + strong aug) | 0.700 ± 0.020 | 0.615 ± 0.021 | 0.603 ± 0.026 | 212.99 ± 19.91 |
+
+## CVC-300
+
+| Method | CVC-300 dice | CVC-300 iou | CVC-300 bf | CVC-300 hd95 |
+|---|---|---|---|---|
+| U-Net | 0.813 ± 0.016 | 0.730 ± 0.018 | 0.692 ± 0.033 | 62.08 ± 16.73 |
+| PraNet | 0.884 ± 0.007 | 0.814 ± 0.010 | 0.792 ± 0.014 | 24.07 ± 8.20 |
+| YOLO-Seg (no diffusion) | 0.880 ± 0.014 | 0.811 ± 0.015 | 0.791 ± 0.016 | 22.65 ± 3.69 |
+| YOLO-Diff (no boundary) | 0.859 ± 0.005 | 0.784 ± 0.009 | 0.771 ± 0.016 | 32.17 ± 1.68 |
+| YOLO-Diff (boundary) | 0.860 ± 0.017 | 0.788 ± 0.017 | 0.769 ± 0.016 | 27.56 ± 6.37 |
+| YOLO-Diff (boundary + strong aug) | 0.855 ± 0.006 | 0.784 ± 0.005 | 0.766 ± 0.013 | 28.66 ± 1.76 |
+
+## Model size and speed (batch 1, 352x352, fp32, shared GPU)
+
+| Method | Seeds | Params (M) | Backbone (M) | Latency (ms) |
+|---|---|---|---|---|
+| U-Net | 3 | 31.04 | 0.00 | 5.1 ± 0.0 |
+| PraNet | 3 | 30.48 | 23.65 | 18.6 ± 0.1 |
+| YOLO-Seg (no diffusion) | 3 | 14.51 | 5.08 | 18.6 ± 0.2 |
+| YOLO-Diff (no boundary) | 3 | 14.51 | 5.08 | 140.0 ± 0.4 |
+| YOLO-Diff (boundary) | 3 | 14.51 | 5.08 | 140.0 ± 1.6 |
+| YOLO-Diff (boundary + strong aug) | 3 | 14.51 | 5.08 | 140.3 ± 1.5 |
+
+# Cross-dataset generalization gap (Dice; gap = seen − unseen, lower is better)
+
+| Method | Seen Dice | CVC-ColonDB Dice | Gap to CVC-ColonDB | ETIS-LaribPolypDB Dice | Gap to ETIS-LaribPolypDB |
+|---|---|---|---|---|---|
+| U-Net | 0.844 ± 0.002 | 0.649 ± 0.016 | 0.195 ± 0.016 | 0.492 ± 0.022 | 0.352 ± 0.022 |
+| PraNet | 0.903 ± 0.005 | 0.747 ± 0.009 | 0.156 ± 0.012 | 0.703 ± 0.020 | 0.201 ± 0.021 |
+| YOLO-Seg (no diffusion) | 0.910 ± 0.001 | 0.777 ± 0.004 | 0.133 ± 0.004 | 0.697 ± 0.022 | 0.214 ± 0.022 |
+| YOLO-Diff (no boundary) | 0.849 ± 0.006 | 0.714 ± 0.014 | 0.136 ± 0.014 | 0.666 ± 0.007 | 0.184 ± 0.007 |
+| YOLO-Diff (boundary) | 0.861 ± 0.007 | 0.740 ± 0.007 | 0.121 ± 0.005 | 0.683 ± 0.007 | 0.178 ± 0.007 |
+| YOLO-Diff (boundary + strong aug) | 0.862 ± 0.001 | 0.754 ± 0.008 | 0.108 ± 0.008 | 0.700 ± 0.020 | 0.162 ± 0.019 |
+
+# YOLO-Diff (boundary): effect of DDIM steps and sample ensembling
+
+| Sampling | Seeds | ColonDB Dice | ColonDB BF | Seen Dice | Latency (ms) |
+|---|---|---|---|---|---|
+| 1 step | 3 | 0.743 ± 0.007 | 0.625 ± 0.005 | 0.865 ± 0.006 | 17.7 |
+| 3 steps | 3 | 0.742 ± 0.006 | 0.625 ± 0.004 | 0.863 ± 0.006 | 45.3 |
+| 5 steps | 3 | 0.741 ± 0.006 | 0.630 ± 0.001 | 0.862 ± 0.006 | 71.7 |
+| 10 steps (default) | 3 | 0.740 ± 0.007 | 0.624 ± 0.002 | 0.861 ± 0.007 | 140.0 |
+| 20 steps | 3 | 0.736 ± 0.007 | 0.614 ± 0.005 | 0.859 ± 0.008 | 254.5 |
+| 10 steps x 5 samples | 3 | 0.745 ± 0.006 | 0.639 ± 0.001 | 0.866 ± 0.009 | 137.5 |
+
+# Dataset statistics (domain-gap diagnosis)
+
+| dataset | images | resolution (median HxW) | L* mean | a* mean | b* mean | polyp area % (median) | small polyps (<2% area) % | multi-polyp images % | polyp/background contrast ΔE (median) |
+|---|---|---|---|---|---|---|---|---|---|
+| Kvasir (train) | 900 | 530x621 | 48.4 | 26.3 | 27.4 | 13.53 | 1.9 | 17.4 | 16.4 |
+| CVC-ClinicDB (train) | 550 | 288x384 | 39.2 | 14.4 | 22.5 | 9.09 | 6.2 | 8.2 | 12.2 |
+| Kvasir (test) | 100 | 530x620 | 48.8 | 26.2 | 27.1 | 14.19 | 4.0 | 23.0 | 17.1 |
+| CVC-ClinicDB (test) | 62 | 288x384 | 40.5 | 15.5 | 24.2 | 7.03 | 12.9 | 12.9 | 10.8 |
+| CVC-ColonDB (test) | 380 | 500x574 | 42.8 | 17.1 | 26.3 | 4.72 | 20.8 | 0.8 | 7.4 |
+| ETIS-LaribPolypDB (test) | 196 | 966x1225 | 52.9 | 16.5 | 16.4 | 2.1 | 48.0 | 3.1 | 9.1 |
+| CVC-300 (test) | 60 | 500x574 | 43.2 | 17.3 | 18.7 | 3.28 | 16.7 | 0.0 | 6.4 |
+
+# Error analysis (mean Dice, seed-averaged per image)
+
+## CVC-ColonDB: by polyp size (area fraction)
+| config | small (<2%) (n=79) | medium (2-8%) (n=182) | large (>8%) (n=119) |
+|---|---|---|---|
+| U-Net | 0.471 | 0.786 | 0.556 |
+| PraNet | 0.555 | 0.861 | 0.700 |
+| YOLO-Seg (no diffusion) | 0.635 | 0.857 | 0.750 |
+| YOLO-Diff (no boundary) | 0.541 | 0.846 | 0.626 |
+| YOLO-Diff (boundary) | 0.565 | 0.844 | 0.697 |
+| YOLO-Diff (boundary + strong aug) | 0.594 | 0.851 | 0.711 |
+
+## CVC-ColonDB: by polyp/background contrast (ΔE tertiles)
+| config | low (n=127) | medium (n=126) | high (n=126) |
+|---|---|---|---|
+| U-Net | 0.655 | 0.726 | 0.570 |
+| PraNet | 0.737 | 0.801 | 0.709 |
+| YOLO-Seg (no diffusion) | 0.784 | 0.802 | 0.751 |
+| YOLO-Diff (no boundary) | 0.703 | 0.758 | 0.687 |
+| YOLO-Diff (boundary) | 0.733 | 0.766 | 0.727 |
+| YOLO-Diff (boundary + strong aug) | 0.746 | 0.772 | 0.750 |
+
+## CVC-ColonDB: 15 worst images for YOLO-Diff (boundary)
+| image | dice | bf | area % | contrast ΔE |
+|---|---|---|---|---|
+| 360.png | 0.000 | 0.000 | 0.47 | 1.2 |
+| 303.png | 0.000 | 0.022 | 61.36 | 24.7 |
+| 313.png | 0.000 | 0.000 | 35.02 | 7.7 |
+| 380.png | 0.000 | 0.000 | 1.69 | nan |
+| 309.png | 0.000 | 0.000 | 26.94 | 3.2 |
+| 357.png | 0.000 | 0.000 | 0.51 | 1.1 |
+| 320.png | 0.006 | 0.030 | 34.02 | 10.7 |
+| 314.png | 0.007 | 0.000 | 38.61 | 2.4 |
+| 315.png | 0.014 | 0.034 | 29.16 | 9.3 |
+| 316.png | 0.019 | 0.081 | 21.13 | 8.4 |
+| 342.png | 0.026 | 0.086 | 0.35 | 7.3 |
+| 353.png | 0.032 | 0.042 | 0.75 | 0.6 |
+| 30.png | 0.040 | 0.085 | 4.12 | 28.5 |
+| 301.png | 0.043 | 0.065 | 37.76 | 11.0 |
+| 352.png | 0.056 | 0.056 | 0.96 | 2.0 |
+
+Failures (Dice < 0.5): 18.4% of images; median area of failures 2.33% vs 4.82% for successes.
+
+## ETIS-LaribPolypDB: by polyp size (area fraction)
+| config | small (<2%) (n=94) | medium (2-8%) (n=63) | large (>8%) (n=39) |
+|---|---|---|---|
+| U-Net | 0.360 | 0.539 | 0.734 |
+| PraNet | 0.562 | 0.785 | 0.909 |
+| YOLO-Seg (no diffusion) | 0.549 | 0.789 | 0.902 |
+| YOLO-Diff (no boundary) | 0.522 | 0.759 | 0.862 |
+| YOLO-Diff (boundary) | 0.542 | 0.777 | 0.874 |
+| YOLO-Diff (boundary + strong aug) | 0.549 | 0.801 | 0.899 |
+
+## ETIS-LaribPolypDB: by polyp/background contrast (ΔE tertiles)
+| config | low (n=66) | medium (n=65) | high (n=65) |
+|---|---|---|---|
+| U-Net | 0.298 | 0.477 | 0.704 |
+| PraNet | 0.518 | 0.701 | 0.892 |
+| YOLO-Seg (no diffusion) | 0.525 | 0.700 | 0.867 |
+| YOLO-Diff (no boundary) | 0.497 | 0.656 | 0.847 |
+| YOLO-Diff (boundary) | 0.523 | 0.671 | 0.859 |
+| YOLO-Diff (boundary + strong aug) | 0.547 | 0.683 | 0.871 |
+

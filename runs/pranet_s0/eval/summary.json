@@ -1,0 +1,39 @@
+{
+  "run": "pranet_s0",
+  "model": "pranet",
+  "steps": 10,
+  "n_samples": 1,
+  "params_M": 30.479087,
+  "backbone_params_M": 23.65012,
+  "Kvasir": {
+    "dice": 0.9015,
+    "iou": 0.8478,
+    "bf": 0.8038,
+    "hd95": 52.9969
+  },
+  "CVC-ClinicDB": {
+    "dice": 0.9135,
+    "iou": 0.8625,
+    "bf": 0.8424,
+    "hd95": 12.2318
+  },
+  "CVC-ColonDB": {
+    "dice": 0.7365,
+    "iou": 0.6658,
+    "bf": 0.6226,
+    "hd95": 120.2738
+  },
+  "ETIS-LaribPolypDB": {
+    "dice": 0.6824,
+    "iou": 0.6151,
+    "bf": 0.607,
+    "hd95": 332.7514
+  },
+  "CVC-300": {
+    "dice": 0.8779,
+    "iou": 0.8064,
+    "bf": 0.7855,
+    "hd95": 26.3331
+  },
+  "latency_ms": 18.615852380171418
+}

@@ -1,0 +1,108 @@
+pranet_s0                        Kvasir             dice=0.9015 iou=0.8478 bf=0.8038 hd95=52.9969
+pranet_s0                        CVC-ClinicDB       dice=0.9135 iou=0.8625 bf=0.8424 hd95=12.2318
+pranet_s0                        CVC-ColonDB        dice=0.7365 iou=0.6658 bf=0.6226 hd95=120.2738
+pranet_s0                        ETIS-LaribPolypDB  dice=0.6824 iou=0.6151 bf=0.6070 hd95=332.7514
+pranet_s0                        CVC-300            dice=0.8779 iou=0.8064 bf=0.7855 hd95=26.3331
+pranet_s0                        params=30.48M latency=18.6ms
+pranet_s1                        Kvasir             dice=0.8990 iou=0.8482 bf=0.7944 hd95=47.1780
+pranet_s1                        CVC-ClinicDB       dice=0.9172 iou=0.8690 bf=0.8467 hd95=12.5170
+pranet_s1                        CVC-ColonDB        dice=0.7516 iou=0.6774 bf=0.6279 hd95=96.9532
+pranet_s1                        ETIS-LaribPolypDB  dice=0.7229 iou=0.6460 bf=0.6258 hd95=231.3936
+pranet_s1                        CVC-300            dice=0.8831 iou=0.8107 bf=0.7832 hd95=30.9030
+pranet_s1                        params=30.48M latency=18.7ms
+pranet_s2                        Kvasir             dice=0.8903 iou=0.8363 bf=0.7894 hd95=58.4242
+pranet_s2                        CVC-ClinicDB       dice=0.9110 iou=0.8622 bf=0.8519 hd95=10.4586
+pranet_s2                        CVC-ColonDB        dice=0.7528 iou=0.6837 bf=0.6396 hd95=110.6858
+pranet_s2                        ETIS-LaribPolypDB  dice=0.7028 iou=0.6305 bf=0.6121 hd95=287.9903
+pranet_s2                        CVC-300            dice=0.8921 iou=0.8263 bf=0.8084 hd95=14.9850
+pranet_s2                        params=30.48M latency=18.6ms
+unet_s0                          Kvasir             dice=0.8517 iou=0.7753 bf=0.6508 hd95=73.6393
+unet_s0                          CVC-ClinicDB       dice=0.8235 iou=0.7593 bf=0.7187 hd95=42.3647
+unet_s0                          CVC-ColonDB        dice=0.6385 iou=0.5508 bf=0.4981 hd95=176.1273
+unet_s0                          ETIS-LaribPolypDB  dice=0.4771 iou=0.4039 bf=0.3731 hd95=484.2130
+unet_s0                          CVC-300            dice=0.8002 iou=0.7136 bf=0.6538 hd95=80.3015
+unet_s0                          params=31.04M latency=5.0ms
+unet_s1                          Kvasir             dice=0.8466 iou=0.7720 bf=0.6522 hd95=81.3318
+unet_s1                          CVC-ClinicDB       dice=0.8400 iou=0.7706 bf=0.7215 hd95=30.1759
+unet_s1                          CVC-ColonDB        dice=0.6672 iou=0.5800 bf=0.5338 hd95=136.5358
+unet_s1                          ETIS-LaribPolypDB  dice=0.5177 iou=0.4354 bf=0.4055 hd95=398.8356
+unet_s1                          CVC-300            dice=0.8084 iou=0.7269 bf=0.7066 hd95=58.5405
+unet_s1                          params=31.04M latency=5.1ms
+unet_s2                          Kvasir             dice=0.8473 iou=0.7681 bf=0.6301 hd95=86.9492
+unet_s2                          CVC-ClinicDB       dice=0.8427 iou=0.7731 bf=0.7162 hd95=40.5934
+unet_s2                          CVC-ColonDB        dice=0.6399 iou=0.5548 bf=0.5129 hd95=160.0533
+unet_s2                          ETIS-LaribPolypDB  dice=0.4808 iou=0.4116 bf=0.3700 hd95=518.0202
+unet_s2                          CVC-300            dice=0.8305 iou=0.7499 bf=0.7151 hd95=47.4028
+unet_s2                          params=31.04M latency=5.1ms
+yolo_diff_v8s_bnd_s0             Kvasir             dice=0.8762 iou=0.8116 bf=0.7672 hd95=56.0329
+yolo_diff_v8s_bnd_s0             CVC-ClinicDB       dice=0.8503 iou=0.7803 bf=0.7533 hd95=26.2482
+yolo_diff_v8s_bnd_s0             CVC-ColonDB        dice=0.7398 iou=0.6568 bf=0.6238 hd95=81.9295
+yolo_diff_v8s_bnd_s0             ETIS-LaribPolypDB  dice=0.6920 iou=0.6150 bf=0.6104 hd95=223.9137
+yolo_diff_v8s_bnd_s0             CVC-300            dice=0.8491 iou=0.7782 bf=0.7572 hd95=29.9650
+yolo_diff_v8s_bnd_s0             params=14.51M latency=140.6ms
+yolo_diff_v8s_bnd_s1             Kvasir             dice=0.8770 iou=0.8162 bf=0.7708 hd95=58.9155
+yolo_diff_v8s_bnd_s1             CVC-ClinicDB       dice=0.8144 iou=0.7510 bf=0.7283 hd95=35.6053
+yolo_diff_v8s_bnd_s1             CVC-ColonDB        dice=0.7329 iou=0.6499 bf=0.6215 hd95=92.5156
+yolo_diff_v8s_bnd_s1             ETIS-LaribPolypDB  dice=0.6796 iou=0.5955 bf=0.5953 hd95=207.0683
+yolo_diff_v8s_bnd_s1             CVC-300            dice=0.8796 iou=0.8084 bf=0.7874 hd95=20.3405
+yolo_diff_v8s_bnd_s1             params=14.51M latency=138.2ms
+yolo_diff_v8s_bnd_s2             Kvasir             dice=0.8746 iou=0.8153 bf=0.7763 hd95=58.3322
+yolo_diff_v8s_bnd_s2             CVC-ClinicDB       dice=0.8460 iou=0.7756 bf=0.7542 hd95=31.8210
+yolo_diff_v8s_bnd_s2             CVC-ColonDB        dice=0.7465 iou=0.6589 bf=0.6259 hd95=88.3869
+yolo_diff_v8s_bnd_s2             ETIS-LaribPolypDB  dice=0.6785 iou=0.5868 bf=0.5942 hd95=242.3600
+yolo_diff_v8s_bnd_s2             CVC-300            dice=0.8517 iou=0.7789 bf=0.7612 hd95=32.3855
+yolo_diff_v8s_bnd_s2             params=14.51M latency=141.3ms
+yolo_diff_v8s_bnd_strong_s0      Kvasir             dice=0.8835 iou=0.8188 bf=0.7637 hd95=50.7401
+yolo_diff_v8s_bnd_strong_s0      CVC-ClinicDB       dice=0.8286 iou=0.7593 bf=0.7404 hd95=28.5825
+yolo_diff_v8s_bnd_strong_s0      CVC-ColonDB        dice=0.7473 iou=0.6599 bf=0.6171 hd95=78.6022
+yolo_diff_v8s_bnd_strong_s0      ETIS-LaribPolypDB  dice=0.7222 iou=0.6394 bf=0.6314 hd95=193.2895
+yolo_diff_v8s_bnd_strong_s0      CVC-300            dice=0.8603 iou=0.7899 bf=0.7781 hd95=28.9985
+yolo_diff_v8s_bnd_strong_s0      params=14.51M latency=139.4ms
+yolo_diff_v8s_bnd_strong_s1      Kvasir             dice=0.8735 iou=0.8085 bf=0.7510 hd95=56.9160
+yolo_diff_v8s_bnd_strong_s1      CVC-ClinicDB       dice=0.8424 iou=0.7698 bf=0.7375 hd95=30.9913
+yolo_diff_v8s_bnd_strong_s1      CVC-ColonDB        dice=0.7622 iou=0.6748 bf=0.6216 hd95=77.3778
+yolo_diff_v8s_bnd_strong_s1      ETIS-LaribPolypDB  dice=0.6855 iou=0.6046 bf=0.5973 hd95=233.0972
+yolo_diff_v8s_bnd_strong_s1      CVC-300            dice=0.8483 iou=0.7790 bf=0.7662 hd95=30.2226
+yolo_diff_v8s_bnd_strong_s1      params=14.51M latency=139.5ms
+yolo_diff_v8s_bnd_strong_s2      Kvasir             dice=0.8752 iou=0.8111 bf=0.7705 hd95=54.5131
+yolo_diff_v8s_bnd_strong_s2      CVC-ClinicDB       dice=0.8375 iou=0.7682 bf=0.7337 hd95=27.4935
+yolo_diff_v8s_bnd_strong_s2      CVC-ColonDB        dice=0.7521 iou=0.6638 bf=0.6230 hd95=73.3770
+yolo_diff_v8s_bnd_strong_s2      ETIS-LaribPolypDB  dice=0.6911 iou=0.6012 bf=0.5811 hd95=212.5944
+yolo_diff_v8s_bnd_strong_s2      CVC-300            dice=0.8575 iou=0.7844 bf=0.7530 hd95=26.7602
+yolo_diff_v8s_bnd_strong_s2      params=14.51M latency=142.0ms
+yolo_diff_v8s_nob_s0             Kvasir             dice=0.8708 iou=0.8021 bf=0.7357 hd95=56.7512
+yolo_diff_v8s_nob_s0             CVC-ClinicDB       dice=0.8326 iou=0.7568 bf=0.7251 hd95=31.2475
+yolo_diff_v8s_nob_s0             CVC-ColonDB        dice=0.7209 iou=0.6353 bf=0.5989 hd95=99.3572
+yolo_diff_v8s_nob_s0             ETIS-LaribPolypDB  dice=0.6682 iou=0.5868 bf=0.5790 hd95=219.1493
+yolo_diff_v8s_nob_s0             CVC-300            dice=0.8615 iou=0.7902 bf=0.7846 hd95=30.2702
+yolo_diff_v8s_nob_s0             params=14.51M latency=140.4ms
+yolo_diff_v8s_nob_s1             Kvasir             dice=0.8588 iou=0.7850 bf=0.7267 hd95=67.7475
+yolo_diff_v8s_nob_s1             CVC-ClinicDB       dice=0.8231 iou=0.7491 bf=0.6979 hd95=36.6414
+yolo_diff_v8s_nob_s1             CVC-ColonDB        dice=0.7232 iou=0.6382 bf=0.5894 hd95=89.0655
+yolo_diff_v8s_nob_s1             ETIS-LaribPolypDB  dice=0.6575 iou=0.5738 bf=0.5572 hd95=214.7927
+yolo_diff_v8s_nob_s1             CVC-300            dice=0.8611 iou=0.7887 bf=0.7761 hd95=33.4345
+yolo_diff_v8s_nob_s1             params=14.51M latency=139.9ms
+yolo_diff_v8s_nob_s2             Kvasir             dice=0.8632 iou=0.7923 bf=0.7339 hd95=67.7472
+yolo_diff_v8s_nob_s2             CVC-ClinicDB       dice=0.8198 iou=0.7504 bf=0.7211 hd95=43.6974
+yolo_diff_v8s_nob_s2             CVC-ColonDB        dice=0.6973 iou=0.6167 bf=0.5861 hd95=121.9922
+yolo_diff_v8s_nob_s2             ETIS-LaribPolypDB  dice=0.6716 iou=0.5860 bf=0.5884 hd95=254.6580
+yolo_diff_v8s_nob_s2             CVC-300            dice=0.8532 iou=0.7744 bf=0.7531 hd95=32.8063
+yolo_diff_v8s_nob_s2             params=14.51M latency=139.6ms
+yolo_seg_v8s_bnd_s0              Kvasir             dice=0.9059 iou=0.8536 bf=0.8064 hd95=47.7520
+yolo_seg_v8s_bnd_s0              CVC-ClinicDB       dice=0.9194 iou=0.8668 bf=0.8633 hd95=9.3780
+yolo_seg_v8s_bnd_s0              CVC-ColonDB        dice=0.7730 iou=0.6983 bf=0.6625 hd95=78.3438
+yolo_seg_v8s_bnd_s0              ETIS-LaribPolypDB  dice=0.7161 iou=0.6433 bf=0.6495 hd95=210.4550
+yolo_seg_v8s_bnd_s0              CVC-300            dice=0.8887 iou=0.8231 bf=0.8090 hd95=21.8745
+yolo_seg_v8s_bnd_s0              params=14.51M latency=18.4ms
+yolo_seg_v8s_bnd_s1              Kvasir             dice=0.9099 iou=0.8622 bf=0.8216 hd95=42.9954
+yolo_seg_v8s_bnd_s1              CVC-ClinicDB       dice=0.9085 iou=0.8571 bf=0.8502 hd95=16.1348
+yolo_seg_v8s_bnd_s1              CVC-ColonDB        dice=0.7783 iou=0.6940 bf=0.6415 hd95=73.2987
+yolo_seg_v8s_bnd_s1              ETIS-LaribPolypDB  dice=0.7014 iou=0.6174 bf=0.6042 hd95=231.2972
+yolo_seg_v8s_bnd_s1              CVC-300            dice=0.8643 iou=0.7941 bf=0.7765 hd95=26.6625
+yolo_seg_v8s_bnd_s1              params=14.51M latency=18.8ms
+yolo_seg_v8s_bnd_s2              Kvasir             dice=0.9013 iou=0.8499 bf=0.8100 hd95=46.2974
+yolo_seg_v8s_bnd_s2              CVC-ClinicDB       dice=0.9241 iou=0.8776 bf=0.8731 hd95=12.4138
+yolo_seg_v8s_bnd_s2              CVC-ColonDB        dice=0.7801 iou=0.7061 bf=0.6639 hd95=71.0107
+yolo_seg_v8s_bnd_s2              ETIS-LaribPolypDB  dice=0.6720 iou=0.5982 bf=0.5872 hd95=230.8789
+yolo_seg_v8s_bnd_s2              CVC-300            dice=0.8867 iou=0.8161 bf=0.7881 hd95=19.4157
+yolo_seg_v8s_bnd_s2              params=14.51M latency=18.7ms

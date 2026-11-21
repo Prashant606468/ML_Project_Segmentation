@@ -1,0 +1,21 @@
+{
+  "run": "yolo_seg_v8s_bnd_s0",
+  "model": "yolo_seg",
+  "steps": 10,
+  "n_samples": 1,
+  "params_M": 14.50772,
+  "backbone_params_M": 5.079712,
+  "CVC-ColonDB": {
+    "dice": 0.773,
+    "iou": 0.6983,
+    "bf": 0.6625,
+    "hd95": 78.3438
+  },
+  "Kvasir": {
+    "dice": 0.9059,
+    "iou": 0.8536,
+    "bf": 0.8064,
+    "hd95": 47.752
+  },
+  "latency_ms": 11.154281832277775
+}

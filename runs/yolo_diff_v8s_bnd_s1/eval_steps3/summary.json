@@ -1,0 +1,27 @@
+{
+  "run": "yolo_diff_v8s_bnd_s1",
+  "model": "yolo_diff",
+  "steps": 3,
+  "n_samples": 1,
+  "params_M": 14.50772,
+  "backbone_params_M": 5.079712,
+  "CVC-ColonDB": {
+    "dice": 0.7357,
+    "iou": 0.6545,
+    "bf": 0.6286,
+    "hd95": 91.2524
+  },
+  "Kvasir": {
+    "dice": 0.8788,
+    "iou": 0.8198,
+    "bf": 0.7666,
+    "hd95": 59.3154
+  },
+  "CVC-ClinicDB": {
+    "dice": 0.8201,
+    "iou": 0.7593,
+    "bf": 0.7491,
+    "hd95": 37.1226
+  },
+  "latency_ms": 45.0676583359018
+}

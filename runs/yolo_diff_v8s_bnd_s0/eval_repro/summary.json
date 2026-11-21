@@ -1,0 +1,21 @@
+{
+  "run": "yolo_diff_v8s_bnd_s0",
+  "model": "yolo_diff",
+  "steps": 10,
+  "n_samples": 1,
+  "params_M": 14.50772,
+  "backbone_params_M": 5.079712,
+  "CVC-ColonDB": {
+    "dice": 0.7398,
+    "iou": 0.6568,
+    "bf": 0.6238,
+    "hd95": 81.9295
+  },
+  "Kvasir": {
+    "dice": 0.8762,
+    "iou": 0.8116,
+    "bf": 0.7672,
+    "hd95": 56.0329
+  },
+  "latency_ms": 79.66470899991691
+}

@@ -1,0 +1,18 @@
+{
+  "model": "pranet",
+  "no_boundary": false,
+  "yolo": "s",
+  "aug": "basic",
+  "epochs": 50,
+  "lr": 0.0001,
+  "bs": 16,
+  "seed": 2,
+  "val_every": 2,
+  "workers": 8,
+  "data": "data",
+  "name": "pranet_s2",
+  "bb_lr_mult": 1.0,
+  "n_params": 30479087,
+  "n_train": 1305,
+  "n_val": 145
+}

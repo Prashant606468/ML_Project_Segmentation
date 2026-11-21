@@ -1,0 +1,39 @@
+{
+  "run": "unet_s0",
+  "model": "unet",
+  "steps": 10,
+  "n_samples": 1,
+  "params_M": 31.037633,
+  "backbone_params_M": 0.0,
+  "Kvasir": {
+    "dice": 0.8517,
+    "iou": 0.7753,
+    "bf": 0.6508,
+    "hd95": 73.6393
+  },
+  "CVC-ClinicDB": {
+    "dice": 0.8235,
+    "iou": 0.7593,
+    "bf": 0.7187,
+    "hd95": 42.3647
+  },
+  "CVC-ColonDB": {
+    "dice": 0.6385,
+    "iou": 0.5508,
+    "bf": 0.4981,
+    "hd95": 176.1273
+  },
+  "ETIS-LaribPolypDB": {
+    "dice": 0.4771,
+    "iou": 0.4039,
+    "bf": 0.3731,
+    "hd95": 484.213
+  },
+  "CVC-300": {
+    "dice": 0.8002,
+    "iou": 0.7136,
+    "bf": 0.6538,
+    "hd95": 80.3015
+  },
+  "latency_ms": 5.024941922165453
+}

@@ -1,0 +1,18 @@
+{
+  "model": "yolo_diff",
+  "no_boundary": true,
+  "yolo": "s",
+  "aug": "basic",
+  "epochs": 100,
+  "lr": 0.0005,
+  "bs": 16,
+  "seed": 2,
+  "val_every": 2,
+  "workers": 8,
+  "data": "data",
+  "name": "yolo_diff_v8s_nob_s2",
+  "bb_lr_mult": 0.2,
+  "n_params": 14507720,
+  "n_train": 1305,
+  "n_val": 145
+}
