@@ -1,0 +1,4 @@
+1d99b8eb57faed3a38af196d280a7a0a82c1f91615c04fd961ecf2b478a0ae1a  data/raw/TrainDataset.zip
+9e58a39dc6f19650515dd5fb0270acc80fa64047d360b0a2e4680c0535deba9d  data/raw/TestDataset.zip
+1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a  weights/yolov8s.pt
+f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36  weights/yolov8n.pt

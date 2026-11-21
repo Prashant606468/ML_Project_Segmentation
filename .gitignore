@@ -1,0 +1,22 @@
+# Datasets (downloaded by scripts/download_data.sh)
+data/
+
+# Model weights: checkpoints are hosted on the Hugging Face Hub (see README)
+*.pt
+*.pth
+
+# Python / editor
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+
+logs_run_all.out
