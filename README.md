@@ -78,16 +78,16 @@ The datasets are not in this repository (1.5 GB). The script downloads them from
 
 ## 3. Reproduce from released checkpoints (no training, ~30 min)
 
-The checkpoints (18 × 56–119 MB, 1.4 GB in total) exceed GitHub's file limit, so they are hosted on the Hugging Face Hub: **https://huggingface.co/HF_REPO_ID**
+The checkpoints (18 × 56–119 MB, 1.4 GB in total) exceed GitHub's file limit, so they are hosted on the Hugging Face Hub: **https://huggingface.co/Prashant481968/polyp-yolo-diff**
 
 ```bash
-bash scripts/reproduce_eval.sh HF_REPO_ID
+bash scripts/reproduce_eval.sh Prashant481968/polyp-yolo-diff
 ```
 
 This downloads and verifies the checkpoints (SHA-256), evaluates all 18 runs, runs the DDIM-step sweep, and regenerates every table and figure in `results/`. To evaluate a single model:
 
 ```bash
-python scripts/checkpoints.py download --repo HF_REPO_ID --runs yolo_seg_v8s_bnd_s0
+python scripts/checkpoints.py download --repo Prashant481968/polyp-yolo-diff --runs yolo_seg_v8s_bnd_s0
 python evaluate.py runs/yolo_seg_v8s_bnd_s0
 ```
 

@@ -16,7 +16,7 @@
 
 % ---- links filled in after publishing (see README) ----
 \newcommand{\repoURL}{\url{https://github.com/Prashant606468/ML_Project_Segmentation}}
-\newcommand{\hfURL}{\url{https://huggingface.co/HF_REPO_ID}}
+\newcommand{\hfURL}{\url{https://huggingface.co/Prashant481968/polyp-yolo-diff}}
 
 \newcommand{\best}[1]{\textbf{#1}}
 \newcommand{\pmstd}[1]{{\scriptsize$\pm$#1}}
@@ -284,7 +284,7 @@ We studied cross-dataset polyp segmentation with a YOLO-backbone-guided conditio
 
 \paragraph{Artifacts.} Code, configuration, logs and per-image results: \repoURL. Trained checkpoints (18 $\times$ 56--119\,MB, 1.4\,GB in total, above GitHub's 100\,MB file limit): \hfURL, with SHA-256 digests in \texttt{checkpoints.sha256}. The environment is pinned in \texttt{requirements.txt} and \texttt{environment.yml} (Python 3.9.22, PyTorch 2.6.0, CUDA 12.4, timm 0.6.12, ultralytics 8.4.24). The datasets are not redistributed; \texttt{scripts/download\_data.sh} fetches the public PraNet split, and checksums are provided.
 
-\paragraph{Instructions.} \texttt{bash scripts/download\_data.sh} downloads the data and YOLOv8 weights. \texttt{bash scripts/reproduce\_eval.sh HF\_REPO\_ID} regenerates every table and figure from the released checkpoints in about 30 minutes. \texttt{bash run\_all.sh} retrains all 18 models (about 6 hours on our shared GPU) and then evaluates them.
+\paragraph{Instructions.} \texttt{bash scripts/download\_data.sh} downloads the data and YOLOv8 weights. \texttt{bash scripts/reproduce\_eval.sh Prashant481968/polyp-yolo-diff} regenerates every table and figure from the released checkpoints in about 30 minutes. \texttt{bash run\_all.sh} retrains all 18 models (about 6 hours on our shared GPU) and then evaluates them.
 
 \paragraph{Verification.} Re-evaluating saved checkpoints gave bit-identical per-image metrics, including for the diffusion model, which uses a fixed noise seed. Re-training is not bit-exact because of non-deterministic cuDNN kernels; we therefore report the standard deviation over three seeds.
 
