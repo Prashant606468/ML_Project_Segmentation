@@ -1,12 +1,4 @@
-"""Evaluate trained runs on all test sets (in-domain and unseen).
 
-Writes, per run:
-    runs/<run>/eval/<dataset>.csv   per-image Dice / IoU / BF / HD95
-    runs/<run>/eval/summary.json    dataset means + params + latency
-
-    python evaluate.py runs/yolo_diff_v8s_bnd_s0 runs/pranet_s0
-    python evaluate.py runs/* --save_preds
-"""
 import argparse
 import json
 import os
